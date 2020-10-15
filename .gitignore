@@ -1,0 +1,52 @@
+*.swp
+*.orig
+*.pyc
+*.pyo
+.venv
+venv
+MANIFEST
+*.egg-info
+tmp
+staticfiles
+.DS_Store
+.coverage
+.vimrc*
+.cache
+.mypy_cache
+.tern-project
+.tern-port
+.python-version
+.pytest_cache/
+*build
+.idea/
+.vscode/
+XDG_CACHE_HOME/
+package-lock.json
+
+.env
+
+
+
+# Sphinx documentation
+docs/source/_build/
+
+# Created by https://www.gitignore.io/api/terraform
+
+### Terraform ###
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+### Terraform Patch ###
+*.tfvars
+# End of https://www.gitignore.io/api/terraform
+
+.hypothesis
+.nvimrc
+tags
+
+*.sql
+*.dump
