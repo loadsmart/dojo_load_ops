@@ -22,6 +22,7 @@ staticfiles
 .vscode/
 XDG_CACHE_HOME/
 package-lock.json
+node_modules/
 
 .env
 
